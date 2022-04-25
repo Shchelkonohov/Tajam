@@ -90,9 +90,29 @@ header .content {
     padding: 15px;
     color: #00e0d0;
     font: 300 16px 'Hammersmith', sans-serif;
+    box-sizing: content-box;
 
 }
 
 .button-learn-more:hover {
     cursor: pointer;
+}
+
+section.our-story .content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+section.our-story .logo {
+    margin-right: 100px;
+}
+
+section.our-story .text-story {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
 }
